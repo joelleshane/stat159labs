@@ -7,7 +7,7 @@ runtime: shiny
 ---
 
 ```{r, echo = FALSE}
-ad <- read.csv("http://www-bcf.usc.edu/~gareth/ISL/Advertising.csv")
+ad <- read.csv("Advertising.csv")
 library(ggplot2)
 library(shiny)
 
