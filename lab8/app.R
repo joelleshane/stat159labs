@@ -1,4 +1,4 @@
-```{r, echo = FALSE}
+
 ad <- read.csv("Advertising.csv")
 library(ggplot2)
 library(shiny)
@@ -13,5 +13,4 @@ server <- function(input, output){
 
 shinyApp(ui = ui, server = server)
 
-```
 
